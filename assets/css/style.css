@@ -387,6 +387,10 @@ html {
     display: inline-block;
 }
 
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+}
 .map-section img {
     width: 100%;
 }

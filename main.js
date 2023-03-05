@@ -5,6 +5,7 @@ const modalContainer = document.querySelector('.modal-container')
 
 function showBuyTickets() {
     modal.classList.add('open')
+    console.log("hehe")
 }
 
 function hideBuyTickets() {

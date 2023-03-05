@@ -50,15 +50,15 @@
                     <div class="member-list space-around">
                         <div class="col mt-16">
                             <p class="member-name">Name</p>
-                            <img src="/assets/img/member/bandmember.jpg" alt="" class="member-img">
+                            <img src="./assets/img/member/bandmember.jpg" alt="" class="member-img">
                         </div>
                         <div class="col mt-16">
                             <p class="member-name">Name</p>
-                            <img src="/assets/img/member/bandmember.jpg" alt="" class="member-img">
+                            <img src="./assets/img/member/bandmember.jpg" alt="" class="member-img">
                         </div>
                         <div class="col mt-16">
                             <p class="member-name">Name</p>
-                            <img src="/assets/img/member/bandmember.jpg" alt="" class="member-img">
+                            <img src="./assets/img/member/bandmember.jpg" alt="" class="member-img">
                         </div>
                     </div>
                 </div>
@@ -74,30 +74,30 @@
                         </ul>
                         <div class="place-list row space-around">
                             <div class="col mt-16">
-                                <img src="/assets/img/places/place1.jpg" alt="NewYork" class="place-img">
+                                <img src="./assets/img/places/place1.jpg" alt="NewYork" class="place-img">
                                 <div class="place-body">
                                     <h2 class="place-heading">New York</h2>
                                     <p class="place-time">Fri 27 Nov 2016</p>
                                     <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                    <a href="#" class="btn full-width">Buy Tickets</a>
+                                    <button class="place-buy-btn btn full-width" onlick="showBuyTickets()">Buy Tickets</button>
                                 </div>
                             </div>
                             <div class="col mt-16">
-                                <img src="/assets/img/places/place2.jpg" alt="Paris" class="place-img">
+                                <img src="./assets/img/places/place2.jpg" alt="Paris" class="place-img">
                                 <div class="place-body">
                                     <h2 class="place-heading">Paris</h2>
                                     <p class="place-time">Sat 28 Nov 2016</p>
                                     <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                    <a href="#" class="btn full-width">Buy Tickets</a>
+                                    <button class="place-buy-btn btn full-width" onlick="showBuyTickets()">Buy Tickets</button>
                                 </div>
                             </div>
                             <div class="col mt-16">
-                                <img src="/assets/img/places/place3.jpg" alt="SanFrancisco" class="place-img">
+                                <img src="./assets/img/places/place3.jpg" alt="SanFrancisco" class="place-img">
                                 <div class="place-body">
                                     <h2 class="place-heading">San Francisco</h2>
                                     <p class="place-time">Sun 29 Nov 2016</p>
                                     <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                    <a href="#" class="btn full-width">Buy Tickets</a>
+                                    <button class="place-buy-btn btn full-width" onlick="showBuyTickets()">Buy Tickets</button>
                                 </div>
                             </div>
                         </div>
@@ -181,6 +181,7 @@
                 </div>
             </div>
         </div>
+        <script src="main.js"></script>
         <script>
             var header = document.getElementById('header');
             var mobileMenu = document.getElementById('mobile-menu');
